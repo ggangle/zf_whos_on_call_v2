@@ -45,7 +45,12 @@ group :development do
 end
 
 group :test do
+  gem 'vcr'
+  gem 'webmock'
 end
+
+gem 'figaro'
+gem 'httparty', '~> 0.13.7'
 
 
 

@@ -1,3 +1,5 @@
-<body>
-Who's on call? V-2
-</body>
+<h1>Who's on call? V-2</h1>
+
+<% @user_records.each do |id, info| %>
+<%= info[:primary]['user']['name'] %>
+<% end %>
